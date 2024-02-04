@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    background-image:url(../Images/aa.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    
+}
+
+.navbar h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.navbar ul {
+    margin-top: -20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    color: salmon;
+
+}
+.navbar a:hover{
+    color: black;
+}
+
+.hero {
+    background-image: url(../Images/gurun.jpg);
+    background-size: cover;
+    background-position: 0 -70px;
+    height: 350px;
+    background-color:lightcyan;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid salmon;
+}
+
+.author {
+    font-size: 11px;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h1 {
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.main p{
+    font-size: 14px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    line-height :17px;
+}
+
+.sidebar {
+    padding-top: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    float: right;
+    
+}
+.sidebar h3 {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sidebar p {
+    font-size: 10px;
+    margin-right: 20px;
+    line-height :17px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+img {
+    float: left;
+    margin: 7px;
+}
+
+.footer {
+    background-color:  grey;
+    height: 25px;
+    text-align: center;
+    margin:auto;
+    
+}
+.footer h3 {
+    text-align: center;
+    margin: auto auto;
+    color: white;
+    padding: 5px;
+    
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
